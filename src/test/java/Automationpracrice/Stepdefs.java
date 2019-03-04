@@ -75,13 +75,11 @@ public class Stepdefs {
     @When("^I click on Dresses subcategory$")
     public void i_click_on_Dresses_subcategory() {
 //        chromeDriver.findElement(By.xpath("//li[2]/h5/a[@class='subcategory-name']")).click();
-//        chromeDriver.findElement(By.cssSelector("li[class]>a.sf-with-ul[title=Dresses]")).click();
         chromeDriver.findElement(By.cssSelector(CSS_DRESSES_SUBCATEGORY)).click();
     }
 
     @When("^I choose Summer Dresses subcategory$")
     public void i_choose_Casual_Dresses_subcategory() {
-
 //        chromeDriver.findElement(By.xpath("//li[3]/div/a[@title='Summer Dresses']")).click();
         chromeDriver.findElement(By.cssSelector(CSS_CASUAL_DRESSES_SUBCATEGORY)).click();
     }
